@@ -4,5 +4,5 @@ O Git Hub search é um projeto que foi feito utilizando a Api do GitHub fazendo 
 
 <img src="GitHubSearch/src/result/image.png"/>
 
-<div ><a src='https://www.youtube.com/watch?v=_8FBJaKVufY'  target="_blank"> Assista ao Video</a></div>
+<div ><a href='https://www.youtube.com/watch?v=_8FBJaKVufY'  target="_blank"> Assista ao Video</a></div>
  
