@@ -22,12 +22,12 @@ export function User ({login,avatar_url,followers,following,location,html_url}: 
             <Flex gap='1rem'>
                 <Flex direction='column' alignItems='center' gap='.5rem'>
                     <Text>Seguidores:</Text>
-                    <Flex justifyContent='center' width='2rem' bgGradient='linear(to-t,#1f2020,#7b61f7)' ><Text>{followers}</Text></Flex>
+                    <Flex justifyContent='center' width='fit-content' p='4%' bgGradient='linear(to-t,#1f2020,#7b61f7)' ><Text>{followers}</Text></Flex>
                 </Flex>
                 <Flex border='1px solid #ffff'></Flex>
                 <Flex direction='column' alignItems='center' gap='.5rem'>
                     <Text>Seguindo:</Text>
-                    <Flex justifyContent='center' width='2rem' bgGradient='linear(to-t,#1f2020,#7b61f7)' ><Text>{following}</Text></Flex>
+                    <Flex justifyContent='center' width='fit-content' p='4%' bgGradient='linear(to-t,#1f2020,#7b61f7)' ><Text>{following}</Text></Flex>
                 </Flex>
             </Flex>
             <Button bgGradient='linear(to-b,#1f2020,#7b61f7)' _hover={{scale:'1.05'}}>
