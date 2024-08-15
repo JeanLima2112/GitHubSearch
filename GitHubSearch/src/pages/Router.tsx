@@ -4,7 +4,6 @@ import Home from "./home/Home"
 const Router = () => {
     return(
         <Routes>
-            <Route path = "/GitHubSearch" element = {<Home  />}  />
             <Route path = "/" element = {<Home  />}  />
         </Routes>
     )
